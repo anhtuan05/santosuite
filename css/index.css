@@ -1,0 +1,369 @@
+.stories.intro-stories2 {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.stories-inner {
+    margin-top: 30px;
+}
+
+.stories-inner {
+    max-width: 1405px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+}
+
+div.stories-inner {
+    max-width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.item-with-overlay {
+    text-align: center;
+    padding: 0 2px;
+}
+
+.stories article.story .inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: translate(0, 0);
+}
+
+.item-with-overlay>.inner {
+    overflow: hidden;
+}
+
+.item-with-overlay .information {
+    transition: opacity 400ms cubic-bezier(0.645, 0.045, 0.355, 1), visibility 400ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.stories article.story .information {
+    position: absolute;
+    top: auto;
+    bottom: auto;
+    left: auto;
+    right: auto;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    max-width: 80%;
+    box-sizing: border-box;
+}
+
+/*  banner men, woman */
+.stories.intro-stories2 .stories-inner {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 0px;
+}
+
+.stories.intro-stories2 .stories-inner .story.intro-story2 {
+    width: 50%;
+}
+
+.stories article.story {
+    position: relative;
+}
+
+.stories article.story {
+    position: relative;
+    display: inline-block;
+    margin-right: -4px;
+}
+
+.intro-stories2 article.story .inner {
+    justify-content: flex-end;
+}
+
+.stories.intro-stories2 .stories-inner .story.intro-story2 .inner {
+    width: 100%;
+}
+
+.item-with-overlay .media {
+    line-height: 1em;
+    font-size: 0;
+    overflow: hidden;
+}
+
+.stories.intro-stories2 .stories-inner .story.intro-story2 .inner .media {
+    width: 100%;
+}
+
+.item-with-overlay .media img {
+    width: 100%;
+    max-width: 100%;
+    transition: transform 500ms ease;
+}
+
+.intro-stories2 .information {
+    visibility: visible;
+    opacity: 1;
+}
+
+.intro-stories2 article.story .information {
+    padding: 0;
+    width: 260px;
+    box-sizing: border-box;
+    text-align: right;
+}
+
+.stories.intro-stories2 .stories-inner .story.intro-story2 .inner .information {
+    left: 0px;
+    bottom: 80px;
+}
+
+.stories.intro-stories2 .stories-inner .story.intro-story2 .inner .information {
+    background: #000;
+}
+
+.intro-stories2 article.story .information a {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 40px 25px;
+}
+
+.item-with-overlay .information>.inner a {
+    color: #fff;
+}
+
+.intro-stories2-description {
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* banner NORTHSKULL WORLD */
+.intro-stories3 h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 35px;
+}
+
+.intro-stories3 .intro-block-slogan {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 28px;
+}
+
+.stories.intro-stories3 .stories-inner {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 0px;
+}
+
+.intro-stories3 .stories-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stories .story {
+    display: inline-block;
+    width: 50%;
+    margin-right: -4px;
+}
+
+.intro-stories3 .intro-story3 {
+    margin: 0;
+}
+
+.intro-story3.item-with-overlay {
+    padding: 0;
+}
+
+.stories article.story {
+    position: relative;
+}
+
+.stories.intro-stories3 .stories-inner .story.intro-story3 {
+    vertical-align: top;
+    width: calc((100% - 20px) / 3);
+}
+
+.stories.intro-stories3 .stories-inner .story.intro-story3 .inner {
+    height: 100%;
+}
+
+.stories.intro-stories3 .stories-inner .story.intro-story3 .inner {
+    width: 100%;
+}
+
+.stories.intro-stories3 .stories-inner .story.intro-story3 .inner .media {
+    height: 100%;
+}
+
+.stories.intro-stories3 .stories-inner .story.intro-story3 .inner .media {
+    width: 100%;
+}
+
+.item-with-overlay .media {
+    line-height: 1em;
+    font-size: 0;
+    overflow: hidden;
+}
+
+.stories.intro-stories3 .stories-inner .story.intro-story3 .media a {
+    display: block;
+    height: 100%;
+}
+
+.stories.intro-stories3 .stories-inner .story.intro-story3 .media img {
+    transform: scale(1.1);
+}
+
+.stories.intro-stories3 .stories-inner .story.intro-story3:hover img {
+    transform: scale(1.2);
+}
+
+.item-with-overlay .media img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.stories .story img {
+    transition: transform 500ms ease;
+}
+
+.intro-story3.item-with-overlay .information {
+    opacity: 1;
+    visibility: visible;
+}
+
+.stories.intro-stories3 .intro-story3 .information {
+    background: none;
+    max-width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.intro-story3-description-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 333px;
+}
+
+.intro-story3-description-inner .ty-instagram-icon-big {
+    display: inline-block;
+    width: 60px;
+    height: 62px;
+    margin-top: 0;
+    top: -80px;
+    position: absolute;
+    left: calc(50% - 30px);
+    background: url(https://northskull.com/design/themes/responsive/media/images/addons/my_changes/instagram_mobile_icon_60.png?1692992493);
+}
+
+.intro-story3-description-inner-text {
+    min-height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 28px;
+    text-align: center;
+    line-height: normal;
+}
+
+.intro-story3-description .intro-insta-text,
+.intro-story3-description .intro-shop {
+    text-transform: uppercase;
+    font-size: 28px;
+    display: block;
+    text-align: center;
+    line-height: normal;
+}
+
+.intro-story3-description:after {
+    content: '';
+    height: 15px;
+    width: 140px;
+    display: block;
+    margin: 8px auto 0;
+    background: #fff;
+}
+
+/*  PRESS block  */
+.press-block-title {
+    text-align: center;
+    margin-bottom: 12px;
+    margin-top: 35px;
+    font-size: 1.786em;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}
+
+.press-block-subtitle {
+    text-align: center;
+    margin-bottom: 13px;
+}
+
+.press-block-subtitle a {
+    text-transform: uppercase;
+}
+
+.press-block-line {
+    display: block;
+    width: 140px;
+    height: 15px;
+    background: #000;
+    margin: 0 auto 20px;
+}
+
+.press-block-main .carousel-outer {
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.press-block-main .carousel {
+    position: static;
+    margin-left: auto;
+    margin-right: auto;
+    width: 86%;
+    margin: 0 auto;
+}
+
+.homepage .press-block-main .carousel {
+    overflow: hidden;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.press-block-main .carousel-inner {
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel .slides {
+    width: 100%;
+    display: flex;
+}
+
+.carousel .slide {
+    width: 217.833px;
+    text-align: center;
+}
+
+.press-block-main .carousel .slide {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.carousel .slides a {
+    font-size: 1em;
+}
+
+.carousel .slide img {
+    max-width: 100%;
+}

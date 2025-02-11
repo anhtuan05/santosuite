@@ -1,0 +1,90 @@
+/* header introdution */
+.ecl-category-data-header {
+    background: url(https://northskull.com/images/promo/9/INSTAGRAM-2-compressor.jpg?t=1572633516);
+}
+
+.category-landing .section-header {
+    justify-content: center;
+}
+
+.category-landing .section-header h1 {
+    text-align: center;
+}
+
+.category-landing .section-header p {
+    max-width: 800px;
+}
+
+/* feature-categories */
+.feature-categories {
+    width: 100%;
+}
+
+.feature-categories .inner {
+    background: #000;
+}
+
+.feature-categories .link-wrapper ul {
+    text-align: center;
+}
+
+.feature-categories .link-wrapper li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.feature-categories .link-wrapper li>a {
+    display: inline-block;
+    font-size: 0.857em;
+    text-transform: uppercase;
+    color: #c1c1c1;
+    padding: 11px 0 10px 0;
+    -webkit-transition: color 200ms ease;
+    transition: color 200ms ease;
+}
+
+.feature-categories .link-wrapper li:after {
+    content: "";
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    width: 1px;
+    height: 10px;
+    right: -22px;
+    background: #fff;
+}
+
+.feature-categories .link-wrapper li>a:hover,
+.feature-categories .link-wrapper li>a.active {
+    color: #fff;
+}
+
+/* instagram-block content  */
+.instagram-block .fs-wrapper .fs-timeline .fs-entry-container:nth-child(1) {
+    top: 0;
+    left: 0;
+}
+.instagram-block .fs-wrapper .fs-timeline .fs-entry-container:nth-child(2) {
+    top: 0;
+    left: 40%;
+}
+.instagram-block .fs-wrapper .fs-timeline .fs-entry-container:nth-child(3) {
+    top: 0;
+    left: 60%;
+}
+.instagram-block .fs-wrapper .fs-timeline .fs-entry-container:nth-child(4) {
+    top: 0;
+    left: 80%;
+}
+.instagram-block .fs-wrapper .fs-timeline .fs-entry-container:nth-child(5) {
+    top: 50%;
+    left: 40%;
+}
+.instagram-block .fs-wrapper .fs-timeline .fs-entry-container:nth-child(6) {
+    top: 50%;
+    left: 60%;
+}
+.instagram-block .fs-wrapper .fs-timeline .fs-entry-container:nth-child(7) {
+    top: 50%;
+    left: 80%;
+}

@@ -1,0 +1,327 @@
+.signin-register {
+    max-width: 980px;
+    margin: 0 auto 20px auto;
+    padding: 0 35px 70px 35px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.signin-register .tabbed-section {
+    border-top: 1px solid #ebebeb;
+    padding-top: 30px;
+}
+
+.signin-register .tab-navigation {
+    margin-bottom: 35px;
+}
+
+.standard-form input {
+    background: #fff;
+    border: 0;
+    font-size: 0.857em;
+    letter-spacing: 0.1em;
+    color: #000;
+    padding: 10px;
+    outline: none;
+}
+
+.standard-form input[type="submit"] {
+    border: 0;
+}
+
+.ty-control-group {
+    margin: 0 0 12px 0;
+    vertical-align: middle;
+}
+
+.ty-control-group:before,
+.ty-control-group:after {
+    display: table;
+    content: "";
+    line-height: 0;
+    width: 100%;
+}
+
+.ty-control-group__label {
+    float: left;
+    padding: 6px 0;
+    margin-right: 10px;
+    width: 110px;
+    color: #1a1a1a;
+}
+
+.ty-control-group:after {
+    clear: both;
+}
+
+.standard-form input[type=text],
+.standard-form input[type=password],
+.standard-form textarea {
+    -webkit-appearance: none;
+    display: block;
+    width: 100%;
+    line-height: normal;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    padding: 12px 10px 9px 10px;
+    margin: 0;
+    outline: none;
+    border: 1px solid #c1c1c1;
+    transition: border-color 200ms ease;
+    resize: none;
+    border-radius: 0;
+}
+
+/* tab */
+.signin-register .tab-navigation li {
+    float: left;
+    width: 50%;
+}
+
+.signin-register .tab-navigation li h5 a {
+    color: #000;
+}
+
+.tabbed-section .tabs {
+    position: relative;
+}
+
+.signin-register .tabbed-section .tabs:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.signin-register .signin {
+    padding-right: 35px;
+}
+
+.signin-register .tabbed-section .tab {
+    float: left;
+    width: 50%;
+}
+
+.signin-register .tabbed-section .tab:first-child {
+    position: static;
+}
+
+/* tab signin */
+.signin-register .signin>p {
+    margin-bottom: 30px;
+}
+
+.ty-login__filed-label {
+    width: auto;
+    color: #1a1a1a;
+}
+
+.signin-register .signin .password {
+    margin-bottom: 60px;
+}
+
+.signin-register .signin fieldset {
+    display: block;
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+
+.signin-register .signin .basic-button {
+    display: block;
+    width: 100%;
+    max-width: 217px;
+    background: #000;
+    color: #fff;
+    margin: 0 auto;
+    padding: 22px 0;
+}
+
+.signin-register .signin .forgot-password {
+    display: block;
+    text-align: center;
+}
+
+.signin .forgot-password a {
+    transition: color 200ms ease;
+    font-size: 1em;
+    color: #000;
+}
+
+.recover-password {
+    display: none;
+    position: relative;
+    background: #f8f8f8;
+    padding: 30px 20px 20px 20px;
+    height: 204px;
+}
+
+.recover-password>.close::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px;
+    content: "×";
+    font-size: 24px;
+}
+
+.recover-password>h5 {
+    font-size: 1em;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.recover-password>p {
+    letter-spacing: 0.05em;
+}
+
+.recover-password .standard-form {
+    position: relative;
+    margin-top: 25px;
+}
+
+.recover-password .input-wrapper {
+    position: relative;
+    float: left;
+    width: 70%;
+}
+
+.recover-password .submit-wrapper {
+    position: relative;
+    float: left;
+    width: 30%;
+    overflow: hidden;
+    background: #cdcdcd;
+}
+
+.recover-password .submit-wrapper .submit {
+    background: none;
+}
+
+.recover-password .submit-wrapper .loader-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 110%);
+}
+
+.mini-loader {
+    position: relative;
+    margin: 0 auto;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #000;
+    background: linear-gradient(to right, #000 10%, rgba(255, 255, 255, 0) 42%);
+}
+
+.standard-notification .icon {
+    float: left;
+    width: 43px;
+    height: 40px;
+    font-family: 'Icon';
+    font-size: 40px;
+    line-height: 1em;
+}
+
+.recover-password .standard-notification .notification-text {
+    font-family: 'Larsseit';
+    text-transform: none;
+    font-size: 0.857em;
+    padding-left: 10px;
+    width: calc(100% - 20px);
+    line-height: 22px;
+}
+
+.standard-notification .notification-text {
+    float: left;
+    width: 218px;
+    text-align: left;
+    padding-left: 16px;
+}
+
+.signin.recover-pw-active .recover-password {
+    display: block;
+}
+
+.signin.recover-pw-active .forgot-password {
+    display: none;
+}
+
+.signin.recover-pw-active .basic-button {
+    display: none;
+}
+
+/* tab register */
+.signin-register .register-prompt>p {
+    margin-bottom: 30px;
+}
+
+.signin-register .register-prompt .standard-list {
+    background: #f8f8f8;
+    padding: 8px 20px 8px 40px;
+    margin-left: 0;
+}
+
+.signin-register .register-prompt .standard-list li {
+    position: relative;
+    letter-spacing: 0.05em;
+}
+
+.standard-list li::before {
+    position: absolute;
+    top: -1px;
+    left: -17px;
+    content: ">";
+    font-size: 0.7em;
+}
+
+.signin-register .register-prompt .basic-button:hover {
+    background: #525252;
+}
+
+.signin-register .register-prompt .basic-button,
+.signin-register .register-form .basic-button {
+    display: block;
+    max-width: 217px;
+    margin: 60px auto 0 auto;
+    background: #000;
+    color: #fff;
+    padding-top: 24px;
+    padding-bottom: 23px;
+    font-size: 0.857em;
+}
+
+.ty-account {
+    margin-top: 30px;
+}
+
+.register-form {
+    display: none;
+    position: relative;
+}
+
+.register-form>.close:after {
+    position: absolute;
+    top: -30px;
+    right: 0;
+    content: "×";
+    font-size: 24px;
+}
+
+.register-form>p {
+    margin-bottom: 30px;
+}
+
+.register-form fieldset {
+    margin-bottom: 20px;
+}
+
+.register-form-active .register-form.ty-account {
+    margin-top: 0px;
+}
+
+.register-form-active .register-form {
+    display: block;
+}
+
+.register-form-active .register-prompt {
+    display: none;
+}

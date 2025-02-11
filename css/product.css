@@ -1,0 +1,163 @@
+[data-fade-in-up].alternate-speed {
+    transition: opacity 800ms ease, transform 1500ms ease;
+}
+
+[data-fade-in-up].go {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.grid-item {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    vertical-align: top;
+    margin-bottom: 1px;
+}
+
+.ty-grid-list__wishlist-form {
+    text-align: right;
+    margin: 0 auto 20px;
+    position: absolute;
+    z-index: 1;
+    top: 3px;
+    right: 3px;
+}
+
+.ecl-wl-product-list-button {
+    background: url(https://northskull.com/design/themes/responsive/media/images/addons/my_changes/HEART_slimmer_icon.svg?1692992589) no-repeat;
+    background-size: 24px 24px;
+    width: 25px;
+    height: 25px;
+    padding: 0;
+    transition: none;
+}
+
+.grid-item>a {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.grid-item img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+}
+
+.grid-item .reverse {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 150ms ease, visibility 150ms ease;
+}
+
+.grid-item .reverse.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.grid-item .information {
+    text-align: center;
+}
+
+.grid-item .inner {
+    text-align: left;
+}
+
+.grid-item .status {
+    display: block;
+    font-size: 0.857em;
+    margin: 20px 0 10px 0;
+    min-height: 19px;
+}
+
+.grid-item .shop-now {
+    display: block;
+    text-align: left;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.grid-item .status span {
+    display: inline-block;
+    line-height: 1em;
+    border: 1px solid #a1a1a1;
+    letter-spacing: 0.05em;
+    padding: 4px 5px 3px 5px;
+}
+
+.grid-item h6.title {
+    margin-bottom: 5px;
+}
+
+.grid-item .title {
+    text-align: left;
+}
+
+.grid-item .title {
+    transition: color 200ms ease;
+    line-height: 16px;
+}
+
+.tworow-title-elm {
+    height: 40px;
+}
+
+.grid-item p.price {
+    text-align: left;
+    color: #000;
+}
+
+.grid-item .price {
+    line-height: 2.2em;
+    font-size: 1em;
+}
+
+.grid-item p.price span {
+    vertical-align: top;
+    display: inline-block;
+}
+
+.grid-item .sale-price {
+    text-decoration: line-through;
+    position: relative;
+    display: inline-block;
+    color: #8f0000;
+    vertical-align: top;
+}
+
+.grid-item .ecl-more-color-main {
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    position: relative;
+}
+
+.grid-item a.basic-button.ecl-more-color {
+    background: #fff;
+    color: #000;
+    border: 1px solid #ccc;
+    text-transform: lowercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding: 2px 10px;
+    max-width: 210px;
+    margin: 5px 0 0;
+}
+
+.grid-item a.basic-button.ecl-more-color span {
+    margin-top: 2px;
+    display: inline-block;
+}
+
+.basic-button.ecl-more-color span {
+    padding-left: 5px;
+    font-size: 20px;
+    line-height: 1em;
+    vertical-align: middle;
+}

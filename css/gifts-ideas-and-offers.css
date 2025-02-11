@@ -1,0 +1,75 @@
+.ecl-category-data-header {
+    background: url('https://northskull.com/images/detailed/11/man8_l745-op_elxv-hg.jpg?t=1638800406');
+}
+
+.category-landing .section-header {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0px 120px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: left;
+    min-height: 260px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.category-landing .section-header h1 {
+    letter-spacing: .15em;
+    line-height: 1.429em;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    text-transform: uppercase;
+    box-sizing: inherit;
+    font-weight: normal;
+}
+
+.category-landing .section-header h1 {
+    color: #fff;
+    margin-bottom: 15px;
+    font-size: 2.857em;
+    letter-spacing: 0.2em;
+}
+
+.category-landing .section-header p {
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+    letter-spacing: .05em;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.category-landing .section-header p {
+    color: #fff;
+    font-size: 1em;
+    line-height: 2.14em;
+    margin-left: 0;
+    max-width: 610px;
+    letter-spacing: 0;
+}
+
+/* product-container */
+.product-container {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.product-container .product-gird {
+    margin-top: 0px;
+    padding: 0 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-container .product-gird .product-item {
+    width: 25%;
+}

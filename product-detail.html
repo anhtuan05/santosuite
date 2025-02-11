@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Men</title>
+    <!-- font Roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="css/featured-products.css">
+    <link rel="stylesheet" href="css/product-detail.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header class="global-header">
+        <div class="inner">
+            <div class="">
+                <!-- menu button mobile -->
+                <!-- <a class="menu-button" href="#" style="">
+                    <span class="extra">Menu button</span>
+                    <span class="bar-container">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </span>
+                </a> -->
+
+                <!-- quick-search -->
+                <div class="quick-search">
+                    <a class="search-button" href="#"><span class="extra">Search button</span></a>
+                    <a class="search-close" href="#"><span class="extra">Close</span></a>
+                    <div class="search-form-wrapper">
+                        <form class="search-form cm-processed-form" action="#" name="search_form" method="get">
+                            <input type="text" title="" id="search_input" class="search-input" value=""
+                                placeholder="Search" name="q">
+                            <button title="" type="submit" class="search-submit">
+                                <span class="extra">Submit</span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- logo -->
+                <h1 class="logo">
+                    <a href="index.html" title=""><span class="extra">Northskull London</span></a>
+                </h1>
+            </div>
+            <!-- main-menu -->
+            <div class="scrollable-content main-menu" style="touch-action: none;">
+                <div class="">
+                    <!-- user-options -->
+                    <ul class="user-options  ">
+                        <li class="currency" id="currencies_8">
+                            <select class="currency-select"
+                                onchange="fn_change_selectbox_value_by_dh(this, this.value);" data-select=""
+                                tabindex="-1" style="display: none;">
+                                <option value="usd" selected="selected">$ USD</option>
+                                <option value="eur">€ EUR</option>
+                                <option value="gbp">£ GBP</option>
+                            </select>
+                            <div class="dropdown-holder">
+                                <a href="#" class="current">$ USD</a>
+                                <div class="icon-current">
+                                    <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                </div>
+                                <div class="content">
+                                    <div class="scrollable">
+                                        <ul>
+                                            <li><a href="usd" class=" active" tabindex="-1">$ USD</a>
+                                            </li>
+                                            <li><a href="eur" tabindex="-1">€ EUR</a></li>
+                                            <li><a href="gbp" tabindex="-1">£ GBP</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--currencies-->
+                        </li>
+                        <li class="account nowrap" style="white-space: nowrap;">
+                            <a href="login.html">
+                                <span class="account-text-mobile">Account</span>
+                                <img src="https://northskull.com/design/themes/responsive/media/images/addons/my_changes/LOGIN_icon.svg"
+                                    class="account-icon">
+                            </a>
+
+                        </li>
+                        <li class="wishlist ">
+                            <a href="wishlist-empty.html" class="cm-top-wl-link"><span
+                                    class="wishlist-text-mobile">wishlist</span>
+                                <img src="https://northskull.com/design/themes/responsive/media/images/addons/my_changes/heart-solid-gold.svg"
+                                    class="wishlist-icon gold mobile-hidden">
+                                <img src="https://northskull.com/design/themes/responsive/media/images/addons/my_changes/HEART_slimmer_icon.svg"
+                                    class="wishlist-icon mobile-hidden">
+                                <span class="item-count">(0)</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- global-navigation -->
+                    <nav class="global-navigation">
+                        <div class="global-navigation-inner">
+                            <ul>
+                                <li class="has-sub-nav ecl-spec-menu-elm ecl-spec-menu-elm-mw"><a href="men.html">Mens
+                                        <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                                    <div class="sub-nav sub-nav-elc-male">
+                                        <div class="sub-nav-inner">
+                                            <div class="sub-nav-background"></div>
+                                            <div class="sub-nav-back">
+                                                Mens
+                                            </div>
+                                            <ul class="gender-collections">
+                                                <li class="tm-gc-title">Featured collections</li>
+                                                <li><a href="#">Vanguard
+                                                        *New*</a></li>
+                                                <li><a href="#">Ari
+                                                        Petrou x Northskull</a></li>
+                                                <li><a href="#">Untitled</a>
+                                                </li>
+                                                <li><a href="#">RISE</a>
+                                                </li>
+                                                <li><a href="#">Further</a>
+                                                </li>
+                                                <li><a href="#">View all
+                                                        collections</a></li>
+                                            </ul>
+                                            <ul class="categories categories-products">
+                                                <li class="tm-gc-title">Products</li>
+                                                <li><a href="#">New in</a></li>
+                                                <li><a href="#" class="toggle-subcategories">Bracelets <i
+                                                            class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                                                    <ul class="subcategories">
+                                                        <li><a href="#">Leather Bracelets</a></li>
+                                                        <li><a href="#">Beads &amp; Macramé</a></li>
+                                                        <li><a href="#">Cuffs &amp; Bangles</a></li>
+                                                        <li><a href="#">Chain Bracelets</a></li>
+                                                        <li><a href="#">view all</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#">Necklaces</a></li>
+                                                <li><a href="#">Rings</a></li>
+                                                <li><a href="#">Earrings</a></li>
+                                                <li><a href="#">Accessories</a></li>
+                                                <li><a href="#" class="toggle-subcategories">Leather Goods <i
+                                                            class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                                                    <ul class="subcategories">
+                                                        <li><a href="#">Card Holders</a></li>
+                                                        <li><a href="#">Wallets</a></li>
+                                                        <li><a href="#">view all</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#">Sunglasses *Limited*</a></li>
+                                                <li><a href="#">Clothing *Limited*</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="has-sub-nav ecl-spec-menu-elm ecl-spec-menu-elm-mw">
+                                    <a href="woman.html">Womens
+                                        <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                                    <div class="sub-nav sub-nav-elc-female">
+                                        <div class="sub-nav-inner">
+                                            <div class="sub-nav-background"></div>
+                                            <div class="sub-nav-back">
+                                                Womens
+                                            </div>
+                                            <ul class="gender-collections">
+                                                <li class="tm-gc-title">Featured collections</li>
+                                                <li><a href="#">Lydia
+                                                        Tomlinson x Northskull II (*NEW*)</a></li>
+                                                <li><a href="#">Majestic</a>
+                                                </li>
+                                                <li><a href="#">Him
+                                                        for Her</a></li>
+                                            </ul>
+                                            <ul class="categories categories-products">
+                                                <li class="tm-gc-title">Products</li>
+                                                <li><a href="#">New In </a></li>
+                                                <li><a href="#">Bracelets</a></li>
+                                                <li><a href="#">Necklaces
+                                                        &amp; Chokers </a></li>
+                                                <li><a href="#">Earrings </a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li><a href="shop-our-insta.html">Shop Instagram</a></li>
+                                <li class="has-sub-nav ecl-spec-menu-elm">
+                                    <a>Northskull World <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                                    <div class="sub-nav sub-nav-spec-type-s sub-nav-spec-type-sb">
+                                        <div class="sub-nav-inner">
+                                            <div class="sub-nav-background"></div>
+                                            <div class="sub-nav-back">
+                                                Northskull World
+                                            </div>
+                                            <div class="title">Northskull World</div>
+                                            <div class="descr">Keep up to date with the world of Northskull where you
+                                                can find out the latest news, the inspirations behind the collections,
+                                                press features, celebrity fans and much more.</div>
+                                            <div class="elms-big">
+                                                <div class="elm-big">
+                                                    <div>
+                                                        <a href="about-us.html" class="elm-big-image">
+                                                            <img
+                                                                src="https://northskull.com/images/thumbnails/239/130/page_menu/6/ABOUT-US-1.png?t=1646072426">
+                                                        </a>
+                                                    </div>
+                                                    <div class="elm-title"><a href="about-us.html">About Us</a>
+                                                    </div>
+                                                </div>
+                                                <div class="elm-big">
+                                                    <div>
+                                                        <a href="journal.html" class="elm-big-image">
+                                                            <img src="https://northskull.com/images/thumbnails/239/130/page_menu/6/JOURNAL-1.png?t=1646072426"
+                                                                alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="elm-title"><a href="journal.html">Journal</a></div>
+                                                </div>
+                                                <div class="elm-big">
+                                                    <div>
+                                                        <a href="journal.html" class="elm-big-image">
+                                                            <img src="https://northskull.com/images/thumbnails/239/130/page_menu/6/PRESS-1.png?t=1646072426"
+                                                                alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="elm-title"><a href="journal.html">In
+                                                            The Press</a></div>
+                                                </div>
+                                                <div class="elm-big">
+                                                    <div>
+                                                        <a href="#" class="elm-big-image">
+                                                            <img src="https://northskull.com/images/thumbnails/239/130/page_menu/6/SELFRIDGES-1.png?t=1646072426"
+                                                                alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="elm-title"><a href="#">News
+                                                            &amp; Events</a></div>
+                                                </div>
+                                                <div class="elm-big">
+                                                    <div>
+                                                        <a href="#" class="elm-big-image">
+                                                            <img src="https://northskull.com/images/thumbnails/239/130/page_menu/6/CELEBS-1.png?t=1646072426"
+                                                                alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="elm-title"><a href="#">Celebrities</a>
+                                                    </div>
+                                                </div>
+                                                <div class="elm-big">
+                                                    <div>
+                                                        <a href="#" class="elm-big-image">
+                                                            <img src="https://northskull.com/images/thumbnails/239/130/page_menu/6/inspo_copy_4.png?t=1646072426"
+                                                                alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="elm-title"><a href="#">Our
+                                                            Inspirations</a></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li><a href="stockists.html">Stockists</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <!-- basket-preview -->
+            <div class="">
+                <div class="basket-preview">
+                    <a class="basket-button">
+                        <span class="copy"><img
+                                src="https://northskull.com/design/themes/responsive/media/images/addons/my_changes/SHOPPING BAG_icon.svg"></span>
+                        <span class="item-count">(0)</span>
+                    </a>
+                    <!-- cart empty -->
+                    <div class="preview empty">
+                        <div class="ecl-preview-dropdown" id="dropdown_193">
+                            <div class="preview-inner">
+                                <a href="#"
+                                    class="close-preview close-preview-minibasket close-preview-minibasket-empty"><span
+                                        class="extra">Close Preview</span></a>
+                                <div class="ecl-cart-status-mini" id="cart_status_mini">
+
+                                    <div class="ecl-cart-status-mini__header">
+                                        <h3 class="header"><span class="copy"></span> <span
+                                                class="ecl-cart-status-mini__cart-icon"></span><span
+                                                class="item-count">(0)</span></h3>
+                                        <h4 class="secondary-header"> My basket</h4>
+                                    </div>
+                                    <div class="ty-mini-basket-empty">
+                                        <div class="preview-empty-status">Your basket is empty</div>
+
+                                        <a href="index.html"
+                                            class="close-preview-minibasket ty-btn ty-btn__secondary text-button close-preview-minibasket-empty">Continue
+                                            shopping</a>
+                                    </div>
+                                    <ul class="products"></ul>
+
+                                    <!-- cart_status_mini -->
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- under-menu-free-shipping-banner -->
+        <div class="under-menu-free-shipping-banner">
+            <span class="s1"><strong>25% off&nbsp;All
+                    Mens</strong>&nbsp;this week only! | Use Code:&nbsp;</span>
+            <span class="s2"><strong>WKND25</strong></span>
+        </div>
+    </header>
+    <!-- content -->
+    <div class="page-wrapper homepage">
+        <div class="page-content product-page">
+            <div class="">
+                <!-- product detail -->
+                <section class="product-information text-colour-dark cursor-colour-dark details-hidden">
+                    <header class="product-header">
+                        <h1>Black Nappa Leather / Gold Twin Skull Bracelet</h1>
+                        <h2 class="product-code">5388123</h2>
+                    </header>
+
+                    <div class="product-media">
+                        <div class="slideshow ecl-product-hotspot-wrapper">
+                            <ul class="slides">
+                                <li class="slide fade-in-up">
+                                    <img src="https://northskull.com/images/detailed/3/5388123_1.jpg?t=1486986510"
+                                        alt="" class="cm-elc-without-product-map-image">
+                                </li>
+                                <li class="slide fade-in-up">
+                                    <img src="https://northskull.com/images/detailed/4/NS_ECOMM_109_1136.jpg?t=1486988545"
+                                        alt="" class="cm-elc-without-product-map-image">
+                                </li>
+                                <li class="slide fade-in-up">
+                                    <img src="https://northskull.com/images/detailed/3/5388123_2.jpg?t=1486986738"
+                                        alt="" class="cm-elc-without-product-map-image">
+                                </li>
+                                <li class="slide fade-in-up">
+                                    <img src="https://northskull.com/images/detailed/3/5388123_4.jpg?t=1486986603"
+                                        alt="" class="cm-elc-without-product-map-image">
+                                </li>
+                                <li class="slide fade-in-up">
+                                    <div class="standard-video-si">
+                                        <div class="placeholder"
+                                            style="background: url('https://northskull.com/images/product_fw/3/Clark_keys_nappa_product_page_image.jpg?t=1486988799') no-repeat 50% 50%;">
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="detail-sharing-wrapper">
+                        <div class="product-details">
+                            <p>Designed with black nappa leather and juxtaposed with our signature skulls finished in
+                                18kt. gold, this bracelet is an instant classic, making it a perenially stylish option
+                                for any look. This Northskull piece is a must-have for any accessories collection.<br>
+                            </p>
+                            <div class="more-details">
+                                <div class="inner">
+                                    <ul>
+                                        <li><span>Wrist&nbsp;<span>Size Small:16cm, Medium:17 cm, Large:18cm, XL:19 cm,
+                                                    XXL 20 cm</span></span></li>
+                                        <li>6mm Braided, Black Premium Nappa Leather</li>
+                                        <li>18kt. Gold Plated Magnetic Steel Clasp Closure w/ Northskull Logo on reverse
+                                        </li>
+                                        <li>18kt. Gold Plated, Hand Carved Skulls</li>
+                                        <li>Comes in a sleek black pull out box</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <p><a class="more-details-button" href="#">More details...</a></p>
+                        </div>
+                        <div class="product-sharing">
+                            <ul>
+                                <li class="facebook">
+                                    <a href="#" target="_blank">
+                                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li class="twitter">
+                                    <a href="#" target="_blank">
+                                        <i class="fa fa-twitter" aria-hidden="true">
+                                        </i>
+                                    </a>
+                                </li>
+                                <li class="pinterest">
+                                    <a href="#" target="_blank">
+                                        <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li class="email">
+                                    <a href="#" target="_blank">
+                                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <article class="product-form">
+                        <form action="#" method="post" name="product_form" class="add-to-basket">
+                            <div class="ecl-pd-product-price mobile-hidden">
+                                <h3><span class="sale-price"></span>$205.00</h3>
+                            </div>
+
+                            <div class="product-options">
+                                <div class="custom-select">
+                                    <select>
+                                        <option value="size">Size</option>
+                                        <option value="small">Small (16cm Wrist)</option>
+                                        <option value="medium">Medium (17cm Wrist)</option>
+                                        <option value="large">Large (18cm Wrist)</option>
+                                        <option value="xl">XL (19cm Wrist)</option>
+                                        <option value="xxl">XXL (20cm Wrist)</option>
+                                    </select>
+                                </div>
+                                <ul class="mobile-hidden">
+                                    <li class="has-information">
+                                        <a href="#">
+                                            Sizing Guide
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="ecl-pd-products-group mobile-hidden">
+                                <div class="ecl-pd-products-group-feature-name"> Metal colour</div>
+                                <div class="ecl-pd-products-group-feature-value"></div>
+                                <ul class="ecl-pd-products-group-feature-other-values v1">
+                                    <li class=""><a class="ecl-pg-color" href="#" data-title="Rose Gold"
+                                            style="background: url('https://northskull.com/images/thumbnails/24/24/filter_variant/8/rose_gold.jpg?t=1646076147');"></a>
+                                    </li>
+                                    <li class="active"><a class="ecl-pg-color" href="#" data-title="Gold"
+                                            style="background: url('https://northskull.com/images/thumbnails/24/24/filter_variant/8/Gold.jpg?t=1646072434');"></a>
+                                    </li>
+                                    <li class=""><a class="ecl-pg-color" href="#" data-title="Silver"
+                                            style="background: url('https://northskull.com/images/thumbnails/24/24/filter_variant/8/Silver.jpg?t=1646072434');"></a>
+                                    </li>
+                                    <li class=""><a class="ecl-pg-color" href="#" data-title="Gunmetal"
+                                            style="background: url('https://northskull.com/images/thumbnails/24/24/filter_variant/8/Gunmetal.jpg?t=1646072483');"></a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="ecl-pd-products-group mobile-hidden">
+                                <div class="ecl-pd-products-group-feature-name">Leather Colour</div>
+                                <div class="ecl-pd-products-group-feature-value"></div>
+                                <ul class="ecl-pd-products-group-feature-other-values v2">
+                                    <li class="active"><a class="ecl-pg-color" href="#"
+                                            style="background: url('https://northskull.com/images/thumbnails/24/24/filter_variant/8/Black_braided_Leather.jpg?t=1646076628');"></a>
+                                    </li>
+                                    <li class=""><a class="ecl-pg-color" href="#"
+                                            style="background: url('https://northskull.com/images/thumbnails/24/24/filter_variant/8/Army_green_braided_Leather.jpg?t=1646076831');"></a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="ecl-atc-wl-buttons">
+                                <div class="submit-wrapper  cm-submit-wrapper-state">
+                                    <a href="#" class="submit">Add to basket
+                                    </a>
+                                </div>
+                                <div
+                                    class="mobile-hidden add-to-wishlist ecl-wl-pd-button ecl-wl-product-list-button-548 ">
+                                    <a href="#"></a>
+                                </div>
+                            </div>
+
+                            <div class="ecl-delivery-info mobile-hidden">
+                                <div class="has-information"><a href="#">Delivery &amp; Returns</a>
+                                </div>
+                            </div>
+                        </form>
+                    </article>
+                </section>
+                <!-- featured-products -->
+                <section class="featured-products go" data-fade-in-up="">
+                    <div class="section-header">
+                        <h2 class="featured-products__title">RECOMMENDED |
+                            RECENTLY VIEWED</h2>
+                    </div>
+                    <div class="swiper featured-productsSwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <article class="grid-item go alternate-speed" data-fade-in-up="">
+                                    <form action="#" method="post" name="product_form"
+                                        class="ty-grid-list__wishlist-form">
+                                        <input type="submit" class="ty-btn text-button ecl-wl-product-list-button "
+                                            value="">
+                                    </form>
+                                    <a href="product-detail.html" class="ecl-cm-grid-product-link">
+                                        <img src="https://northskull.com/images/thumbnails/800/800/detailed/10/001.jpg?t=1646072479"
+                                            alt="">
+                                        <img class="reverse"
+                                            src="https://northskull.com/images/thumbnails/800/800/detailed/10/19GR-N003-a.jpg?t=1646072479"
+                                            alt="">
+                                        <div class="information">
+                                            <div class="inner">
+                                                <h6 class="title tworow-title-elm">SPECTRUM PADLOCK BRACELET IN SILVER
+                                                </h6>
+                                                <p class="price"> <span class="currency">$</span>160.00</p>
+                                                <a href="product-detail.html" class="shop-now">Shop now</a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </article>
+                            </div>
+                            <div class="swiper-slide">
+                                <article class="grid-item go alternate-speed" data-fade-in-up="">
+                                    <form action="#" method="post" name="product_form"
+                                        class="ty-grid-list__wishlist-form">
+                                        <input type="submit" class="ty-btn text-button ecl-wl-product-list-button "
+                                            value="">
+                                    </form>
+                                    <a href="product-detail.html" class="ecl-cm-grid-product-link">
+                                        <img src="https://northskull.com/images/thumbnails/800/800/detailed/3/5388123_1.jpg?t=1680527908"
+                                            alt="">
+                                        <img class="reverse"
+                                            src="https://northskull.com/images/thumbnails/800/800/detailed/3/5388123_2.jpg?t=1680527908"
+                                            alt="">
+                                        <div class="information">
+                                            <div class="inner">
+                                                <h6 class="title tworow-title-elm">Black Nappa Leather / Gold Twin Skull
+                                                    Bracelet</h6>
+                                                <p class="price"> <span class="currency">$</span>205.00</p>
+                                                <a href="product-detail.html" class="shop-now">Shop now</a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </article>
+                            </div>
+                            <div class="swiper-slide">
+                                <article class="grid-item go alternate-speed" data-fade-in-up="">
+                                    <form action="#" method="post" name="product_form"
+                                        class="ty-grid-list__wishlist-form">
+                                        <input type="submit" class="ty-btn text-button ecl-wl-product-list-button "
+                                            value="">
+                                    </form>
+                                    <a href="product-detail.html" class="ecl-cm-grid-product-link">
+                                        <img src="https://northskull.com/images/thumbnails/800/800/detailed/7/63LR2198.jpg?t=1646072996"
+                                            alt="">
+                                        <img class="reverse"
+                                            src="https://northskull.com/images/thumbnails/800/800/detailed/7/63LR2198-02.jpg?t=1646072996"
+                                            alt="">
+                                        <div class="information">
+                                            <div class="inner">
+                                                <h6 class="title tworow-title-elm">MICRO ATTICUS SKULL DOUBLE WRAP
+                                                    BRACELET
+                                                    IN BLACK AND GOLD</h6>
+                                                <p class="price"> <span class="currency">$</span>125.00</p>
+                                                <a href="product-detail.html" class="shop-now">Shop now</a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </article>
+                            </div>
+                            <div class="swiper-slide">
+                                <article class="grid-item go alternate-speed" data-fade-in-up="">
+                                    <form action="#" method="post" name="product_form"
+                                        class="ty-grid-list__wishlist-form">
+                                        <input type="submit" class="ty-btn text-button ecl-wl-product-list-button "
+                                            value="">
+                                    </form>
+                                    <a href="product-detail.html" class="ecl-cm-grid-product-link">
+                                        <img src="https://northskull.com/images/thumbnails/800/800/detailed/7/STMAYG2221TQ01_AMENDED.jpg?t=1646072997"
+                                            alt="">
+                                        <img class="reverse"
+                                            src="https://northskull.com/images/thumbnails/800/800/detailed/7/STMAYG2221TQ02_AMENDED.jpg?t=1646072997"
+                                            alt="">
+                                        <div class="information">
+                                            <div class="inner">
+                                                <h6 class="title tworow-title-elm">BLACK ONYX / TURQUOISE AND GOLD
+                                                    ATTICUS
+                                                    SKULL MACRAMÉ BRACELET</h6>
+                                                <p class="price"> <span class="currency">$</span>145.00</p>
+                                                <a href="product-detail.html" class="shop-now">Shop now</a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </article>
+                            </div>
+                            <div class="swiper-slide">
+                                <article class="grid-item go alternate-speed" data-fade-in-up="">
+                                    <form action="#" method="post" name="product_form"
+                                        class="ty-grid-list__wishlist-form">
+                                        <input type="submit" class="ty-btn text-button ecl-wl-product-list-button "
+                                            value="">
+                                    </form>
+                                    <a href="product-detail.html" class="ecl-cm-grid-product-link">
+                                        <img src="https://northskull.com/images/thumbnails/800/800/detailed/9/BRCHYG4928-a.jpg?t=1646072997"
+                                            alt="">
+                                        <img class="reverse"
+                                            src="https://northskull.com/images/thumbnails/800/800/detailed/9/BRCHYG4928-b.jpg?t=1646072997"
+                                            alt="">
+                                        <div class="information">
+                                            <div class="inner">
+                                                <h6 class="title tworow-title-elm">ATTICUS SKULL CURB CHAIN BRACELET IN
+                                                    GOLD
+                                                </h6>
+                                                <p class="price"> <span class="currency">$</span>235.00</p>
+                                                <a href="product-detail.html" class="shop-now">Shop now</a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </article>
+                            </div>
+                            <div class="swiper-slide">
+                                <article class="grid-item go alternate-speed" data-fade-in-up="">
+                                    <form action="#" method="post" name="product_form"
+                                        class="ty-grid-list__wishlist-form">
+                                        <input type="submit" class="ty-btn text-button ecl-wl-product-list-button "
+                                            value="">
+                                    </form>
+                                    <a href="product-detail.html" class="ecl-cm-grid-product-link">
+                                        <img src="https://northskull.com/images/thumbnails/800/800/detailed/4/56LR139_front.jpg?t=1646072479"
+                                            alt="">
+                                        <img class="reverse"
+                                            src="https://northskull.com/images/thumbnails/800/800/detailed/4/gunmetal_nappa_back.jpg?t=1646072479"
+                                            alt="">
+                                        <div class="information">
+                                            <div class="inner">
+                                                <h6 class="title tworow-title-elm">BLACK NAPPA LEATHER / GUNMETAL TWIN
+                                                    SKULL
+                                                    BRACELET</h6>
+                                                <p class="price"> <span class="currency">$</span>185.00</p>
+                                                <a href="product-detail.html" class="shop-now">Shop now</a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </article>
+                            </div>
+                            <div class="swiper-slide">
+                                <article class="grid-item go alternate-speed" data-fade-in-up="">
+                                    <form action="#" method="post" name="product_form"
+                                        class="ty-grid-list__wishlist-form">
+                                        <input type="submit" class="ty-btn text-button ecl-wl-product-list-button "
+                                            value="">
+                                    </form>
+                                    <a href="product-detail.html" class="ecl-cm-grid-product-link">
+                                        <img src="https://northskull.com/images/thumbnails/800/800/detailed/9/BRCHGM4928-a.jpg?t=1646072539"
+                                            alt="">
+                                        <img class="reverse"
+                                            src="https://northskull.com/images/thumbnails/800/800/detailed/9/BRCHGM4928-B.jpg?t=1646072539"
+                                            alt="">
+                                        <div class="information">
+                                            <div class="inner">
+                                                <h6 class="title tworow-title-elm">ATTICUS SKULL CURB CHAIN BRACELET IN
+                                                    GUNMETAL</h6>
+                                                <p class="price"> <span class="currency">$</span>215.00</p>
+                                                <a href="product-detail.html" class="shop-now">Shop now</a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </article>
+                            </div>
+                        </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer class="global-footer page-wrapper">
+        <!-- back-to-top -->
+        <div class="">
+            <div class="back-to-top">
+                <a href="#">
+                    <div class="logo"><span></span></div>
+                    <h6>Back North</h6>
+                </a>
+            </div>
+        </div>
+        <div class="main-footer" data-module="Footer">
+            <div class="main-footer-inner">
+                <!-- footer-menu-container -->
+                <div class="footer-menu-container">
+                    <div class="ty-sidebox">
+                        <h2 class="ty-sidebox__title ">
+                            <span class="ty-sidebox__title-wrapper hidden-phone">Northskull</span>
+                        </h2>
+                        <div class="ty-sidebox__body" id="sidebox_108">
+                            <div class="site-links">
+                                <ul class="link-list">
+                                    <li class="">
+                                        <a href="#">About Us</a>
+                                    </li>
+                                    <li class="">
+                                        <a href="#">Press Room</a>
+                                    </li>
+                                    <li class="">
+                                        <a href="#">@Northkull</a>
+                                    </li>
+                                    <li class="">
+                                        <a href="#">News and
+                                            Events</a>
+                                    </li>
+                                    <li class="">
+                                        <a href="#">Contact Us</a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ty-sidebox">
+                        <h2 class="ty-sidebox__title ">
+                            <span class="ty-sidebox__title-wrapper hidden-phone">Customer service</span>
+                        </h2>
+                        <div class="ty-sidebox__body" id="sidebox_109">
+                            <div class="site-links">
+                                <ul class="link-list">
+                                    <li class="">
+                                        <a href="#">Delivery Info</a>
+                                    </li>
+                                    <li class="">
+                                        <a href="#">Returns</a>
+                                    </li>
+                                    <li class="">
+                                        <a href="#">F.A.Q.</a>
+                                    </li>
+                                    <li class="">
+                                        <a href="#">KLARNA F.A.Q</a>
+                                    </li>
+                                    <li class="">
+                                        <a href="#">Track orders</a>
+                                    </li>
+                                    <li class="">
+                                        <a href="#">Care Guide</a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ty-sidebox">
+                        <h2 class="ty-sidebox__title ">
+                            <span class="ty-sidebox__title-wrapper hidden-phone">Shop northskull</span>
+                        </h2>
+                        <div class="ty-sidebox__body" id="sidebox_110">
+                            <div class="site-links">
+                                <ul class="link-list">
+                                    <li class="">
+                                        <a href="#">Shop man</a>
+                                    </li>
+                                    <li class="">
+                                        <a href="#">Shop woman</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ty-sidebox">
+                        <h2 class="ty-sidebox__title ">
+                            <span class="ty-sidebox__title-wrapper hidden-phone">Info</span>
+                        </h2>
+                        <div class="ty-sidebox__body" id="sidebox_111">
+                            <div class="site-links">
+                                <ul class="link-list">
+                                    <li class="">
+                                        <a href="#">Stockists</a>
+                                    </li>
+                                    <li class="">
+                                        <a href="#">Privacy Policy</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- footer-subscribe-block -->
+                <div class="footer-subscribe-block">
+                    <div class="ecl-nl-form-elm newsletter newsletter-popup show">
+                        <h6 class="newsletter-title">Sign up now</h6>
+                        <div class="newsletter-descr">Sign up to our newsletter and be the first to know about new
+                            arrivals, special offers, exclusive launches and much more!</div>
+                        <form class="standard-form cm-processed-form" action="#" method="post">
+                            <div class="newsletter-input-wrapper">
+                                <div class="newsletter-input-wrapper__inner">
+                                    <input class="email-input cm-email" type="text" name="newsletter_data[email]"
+                                        placeholder="Email address" data-email="" data-required=""
+                                        data-error="Valid email address">
+                                    <label class="error-message"></label>
+                                </div>
+
+                                <div class="newsletter-radio-box-title">Email Preferences</div>
+
+                                <div class="newsletter-radio-box">
+                                    <div class="newsletter-radio-box__item">
+                                        <input type="radio" name="newsletter_data[sex]" value="A" checked="checked"
+                                            id="newsletter-radio-all-footer"><label class="newsletter-radio-label"
+                                            for="newsletter-radio-all-footer">All</label>
+                                    </div>
+                                    <div class="newsletter-radio-box__item">
+                                        <input type="radio" name="newsletter_data[sex]" value="M"
+                                            id="newsletter-radio-man-footer"><label class="newsletter-radio-label"
+                                            for="newsletter-radio-man-footer">Men</label>
+                                    </div>
+                                    <div class="newsletter-radio-box__item">
+                                        <input type="radio" name="newsletter_data[sex]" value="F"
+                                            id="newsletter-radio-woman-footer"><label class="newsletter-radio-label"
+                                            for="newsletter-radio-woman-footer">Women</label>
+                                    </div>
+                                </div>
+
+                                <div class="newsletter-submit-wrapper__inner">
+                                    <input class="submit" type="submit" value="Subscribe" name="submit">
+                                    <div class="loader-wrapper">
+                                        <div class="loader"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- footer-social-block -->
+                <div class="footer-social-block">
+                    <div class="footer-top-content-block">
+                        <div class="footer-top-content-block__item"><img
+                                src="https://northskull.com/design/themes/responsive/media/images/addons/my_changes/warenty_img.png"><span
+                                class="footer-top-content-block__item-text">WORLDWIDE EXPRESS SHIPPING</span></div>
+                        <div class="footer-top-content-block__item"><img
+                                src="https://northskull.com/design/themes/responsive/media/images/addons/my_changes/warenty2.png"><span
+                                class="footer-top-content-block__item-text">100% safe &amp; secure checkout</span></div>
+                    </div>
+                    <div class="social">
+                        <h6>Connect</h6>
+                        <ul class="link-list">
+                            <li class="facebook"><a href="#" target="_blank"><i class="fa fa-facebook"
+                                        aria-hidden="true"></i></a>
+                            </li>
+                            <li class="twitter"><a href="#" target="_blank"><i class="fa fa-twitter"
+                                        aria-hidden="true"></i></a></li>
+                            <li class="pinterest"><a href="#" target="_blank"><i class="fa fa-pinterest-p"
+                                        aria-hidden="true"></i></a>
+                            </li>
+                            <li class="instagram"><a href="#" target="_blank"><i class="fa fa-instagram"
+                                        aria-hidden="true"></i></a>
+                            </li>
+                            <li class="snapchat"><a href="#" target="_blank"><i class="fa fa-snapchat-ghost"
+                                        aria-hidden="true"></i></a>
+                            </li>
+                            <li class="vk"><a href="#" target="_blank"><i class="fa fa-vk" aria-hidden="true"></i></a>
+                            </li>
+                            <li class="wechat"><a href="#" target="_blank"><i class="fa fa-weixin"
+                                        aria-hidden="true"></i></a></li>
+                            <li class="weibo"><a href="#" target="_blank"><i class="fa fa-weibo"
+                                        aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-payments">
+                        <h6>Payments</h6>
+                        <div class="footer-payments__list">
+                            <img
+                                src="https://northskull.com/design/themes/responsive/media/images/addons/my_changes/visa_footer.png">
+                            <img
+                                src="https://northskull.com/design/themes/responsive/media/images/addons/my_changes/master_footer.png">
+                            <img
+                                src="https://northskull.com/design/themes/responsive/media/images/addons/my_changes/maestro_footer.png">
+                            <img
+                                src="https://northskull.com/design/themes/responsive/media/images/addons/my_changes/american_express_footer.png">
+                            <img
+                                src="https://northskull.com/design/themes/responsive/media/images/addons/my_changes/jcb_footer.png">
+                            <img
+                                src="https://northskull.com/design/themes/responsive/media/images/addons/my_changes/diners_club_footer.png">
+                            <img
+                                src="https://northskull.com/design/themes/responsive/media/images/addons/my_changes/klarna_footer.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="js/northskull.js"></script>
+<script src="js/northskull-customselect.js"></script>
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<!-- Initialize Swiper -->
+<script src="js/northskull-swiper.js"></script>
+
+</html>

@@ -1,0 +1,132 @@
+/* instagram-block */
+.instagram-block__title {
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 38px;
+}
+
+.instagram-block__title-text {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.instagram-block__title-text:last-child {
+    font-size: 18px;
+}
+
+.instagram-block__title-text:last-child a {
+    font-size: 18px;
+}
+
+/* instagram-block content */
+.instagram-block .fs-wrapper {
+    padding: 0;
+    width: 100%;
+    position: relative;
+    z-index: inherit;
+}
+
+.instagram-block .fs-wrapper .fs-timeline {
+    overflow: hidden;
+    height: 33vw;
+}
+
+.instagram-block .fs-wrapper .fs-timeline .fs-entry-container {
+    display: block;
+    height: 50%;
+    width: 16.6666%;
+    position: absolute;
+    z-index: 1;
+    padding-top: 0px;
+    float: left;
+}
+
+.instagram-block .fs-wrapper .fs-timeline .fs-entry-container.fs-entry-container-w20 {
+    width: 20%;
+}
+
+.instagram-block .fs-wrapper .fs-timeline .fs-entry-container.fs-entry-container-w40 {
+    width: 40%;
+    height: 100%;
+}
+
+.instagram-block .fs-wrapper .fs-timeline .fs-entry-container .fs-timeline-entry {
+    margin: 0;
+    transition: opacity 0.25s;
+    -webkit-flex-direction: column;
+    -webkit-align-items: center;
+    -webkit-justify-content: center;
+    position: absolute;
+    background-color: transparent;
+    list-style-type: none;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.instagram-block .fs-wrapper .fs-timeline .fs-entry-container .fs-timeline-entry .fs-text-container {
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: opacity .25s;
+    opacity: 0;
+    background: rgba(0, 0, 0, 0.5);
+    margin: 0px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 5px;
+    color: #fff;
+}
+
+.instagram-block .fs-wrapper .fs-timeline .fs-entry-container .fs-timeline-entry div.fs-text-container {
+    font-size: 17px;
+    letter-spacing: 0.15em;
+}
+
+.instagram-block .fs-wrapper .fs-timeline .fs-entry-container .fs-timeline-entry .fs-text-container:hover {
+    opacity: 1;
+    color: #fff;
+}
+
+.instagram-block .fs-wrapper .fs-timeline .fs-entry-container .fs-timeline-entry div.fs-text-container.cm-ecl-ii-elm-large {
+    background: rgba(0, 0, 0, 0.5);
+    font-size: 17px;
+    opacity: 1;
+    color: #fff;
+    letter-spacing: 0.15em;
+}
+
+.instagram-block .fs-wrapper .fs-timeline .fs-entry-container .fs-timeline-entry div.fs-text-container a i{
+    display: none;
+}
+
+.cm-ecl-ii-elm-large .fs-link-instagram {
+    font-size: 17px;
+    font-weight: normal;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+}
+
+.ty-instagram-icon-big {
+    display: block;
+    margin-top: 20px;
+}
+
+.ty-instagram-icon-big svg {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+}

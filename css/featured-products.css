@@ -1,0 +1,48 @@
+/* featured-products */
+.homepage .featured-products {
+    padding: 0 35px;
+    margin-bottom: 70px;
+}
+
+.homepage .featured-products div.section-header {
+    margin: 40px auto;
+    margin-top: 0;
+}
+
+.featured-products__title {
+    display: inline-block;
+    line-height: 30px;
+    font-size: 1.714em;
+}
+
+.featured-products__link {
+    display: block;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.featured-productsSwiper .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.featured-products .swiper-button-next {
+    top: 15px;
+    right: 600px;
+}
+
+.featured-products .swiper-button-next:after {
+    color: #000;
+    font-size: 18px;
+}
+
+.featured-products .swiper-button-prev {
+    top: 15px;
+    left: 600px;
+}
+
+.featured-products .swiper-button-prev:after {
+    color: #000;
+    font-size: 18px;
+}

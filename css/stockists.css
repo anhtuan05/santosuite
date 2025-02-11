@@ -1,0 +1,150 @@
+/* section-header  */
+.stockists article,
+.stockists .stockists section {
+    display: block;
+}
+
+.stockists .section-header {
+    width: 100%;
+    margin: 60px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.stockists h1 {
+    font: inherit;
+    font-size: 3.214em;
+    letter-spacing: .15em;
+    line-height: 1.429em;
+    margin: 20px 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* information-viewer */
+.stockists .information-viewer {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto 75px;
+}
+
+.text-template .information-viewer {
+    padding: 0 35px;
+}
+
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    content: "";
+    line-height: 0;
+    width: 100%;
+}
+
+.stockists .information-viewer .view-navigation {
+    float: left;
+    width: 16.14%;
+    margin-right: 3.86%;
+}
+
+.information-viewer .view-navigation li:first-child a {
+    border-top: 1px solid #ebebeb;
+}
+
+.stockists .information-viewer .view-navigation li a {
+    position: relative;
+    display: block;
+    padding: 21px 0 16px;
+    font-size: .857em;
+    text-transform: uppercase;
+    color: #c1c1c1;
+    transition: color 200ms ease;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.stockists .information-viewer .view-navigation li.active a {
+    color: #000;
+}
+
+/* views */
+.stockists .information-viewer .views {
+    position: relative;
+    float: left;
+    width: 79.74%;
+    height: auto;
+    border-bottom: 1px solid #ebebeb;
+    border-top: 1px solid #ebebeb;
+    overflow: hidden;
+}
+
+.stockists .information-viewer .view {
+    padding: 0;
+    border-top: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+    opacity: 0;
+    border-bottom: 1px solid #ebebeb;
+    opacity: 0;
+    z-index: 0;
+}
+
+.stockists .information-viewer .view:first-child {
+    position: relative;
+}
+
+.stockists .information-viewer .view>h2 {
+    display: none;
+    font-size: .857em;
+    letter-spacing: .15em;
+}
+
+.information-viewer .view:first-child>h2 a {
+    border-top: 1px solid #ebebeb;
+}
+
+.stockists .information-viewer .view>h2 a {
+    position: relative;
+    display: block;
+    padding: 21px 0 16px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.stockists .information-viewer .country-wrapper {
+    margin-bottom: 50px;
+}
+
+.stockists .information-viewer .country {
+    font-size: 1.429em;
+    border-bottom: 1px solid #ebebeb;
+    padding: 21px 0 16px;
+}
+
+.stockists .information-viewer .store {
+    display: inline-block;
+    vertical-align: top;
+    width: 224px;
+    margin-top: 28px;
+    padding-right: 20px;
+}
+
+.stockists .information-viewer .store>h6 {
+    line-height: 1.929em;
+    font-size: .857em;
+    letter-spacing: .15em;
+}
+
+.stockists .information-viewer .store>p {
+    letter-spacing: .05em;
+    line-height: 1.929em;
+    margin-bottom: 0;
+}
+
+.stockists .information-viewer .view.active {
+    z-index: 1;
+    opacity: 1;
+}

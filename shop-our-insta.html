@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOP OUR INSTA</title>
+    <!-- font Roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="css/header-introdution.css">
+    <link rel="stylesheet" href="css/instagram-block.css">
+    <link rel="stylesheet" href="css/shop-our-insta.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header class="global-header">
+        <div class="inner">
+            <div class="">
+                <!-- menu button mobile -->
+                <!-- <a class="menu-button" href="#" style="">
+                    <span class="extra">Menu button</span>
+                    <span class="bar-container">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </span>
+                </a> -->
+
+                <!-- quick-search -->
+                <div class="quick-search">
+                    <a class="search-button" href="#"><span class="extra">Search button</span></a>
+                    <a class="search-close" href="#"><span class="extra">Close</span></a>
+                    <div class="search-form-wrapper">
+                        <form class="search-form cm-processed-form" action="#" name="search_form" method="get">
+                            <input type="text" title="" id="search_input" class="search-input" value=""
+                                placeholder="Search" name="q">
+                            <button title="" type="submit" class="search-submit">
+                                <span class="extra">Submit</span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- logo -->
+                <h1 class="logo">
+                    <a href="index.html" title=""><span class="extra">Northskull London</span></a>
+                </h1>
+            </div>
+            <!-- main-menu -->
+            <div class="scrollable-content main-menu" style="touch-action: none;">
+                <div class="">
+                    <!-- user-options -->
+                    <ul class="user-options  ">
+                        <li class="currency" id="currencies_8">
+                            <select class="currency-select"
+                                onchange="fn_change_selectbox_value_by_dh(this, this.value);" data-select=""
+                                tabindex="-1" style="display: none;">
+                                <option value="usd" selected="selected">$ USD</option>
+                                <option value="eur">€ EUR</option>
+                                <option value="gbp">£ GBP</option>
+                            </select>
+                            <div class="dropdown-holder">
+                                <a href="#" class="current">$ USD</a>
+                                <div class="icon-current">
+                                    <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                </div>
+                                <div class="content">
+                                    <div class="scrollable">
+                                        <ul>
+                                            <li><a href="usd" class=" active" tabindex="-1">$ USD</a>
+                                            </li>
+                                            <li><a href="eur" tabindex="-1">€ EUR</a></li>
+                                            <li><a href="gbp" tabindex="-1">£ GBP</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--currencies-->
+                        </li>
+                        <li class="account nowrap" style="white-space: nowrap;">
+                            <a href="login.html">
+                                <span class="account-text-mobile">Account</span>
+                                <img src="https://northskull.com/design/themes/responsive/media/images/addons/my_changes/LOGIN_icon.svg"
+                                    class="account-icon">
+                            </a>
+
+                        </li>
+                        <li class="wishlist ">
+                            <a href="wishlist-empty.html" class="cm-top-wl-link"><span
+                                    class="wishlist-text-mobile">wishlist</span>
+                                <img src="https://northskull.com/design/themes/responsive/media/images/addons/my_changes/heart-solid-gold.svg"
+                                    class="wishlist-icon gold mobile-hidden">
+                                <img src="https://northskull.com/design/themes/responsive/media/images/addons/my_changes/HEART_slimmer_icon.svg"
+                                    class="wishlist-icon mobile-hidden">
+                                <span class="item-count">(0)</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- global-navigation -->
+                    <nav class="global-navigation">
+                        <div class="global-navigation-inner">
+                            <ul>
+                                <li class="has-sub-nav ecl-spec-menu-elm ecl-spec-menu-elm-mw"><a href="men.html">Mens
+                                        <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                                    <div class="sub-nav sub-nav-elc-male">
+                                        <div class="sub-nav-inner">
+                                            <div class="sub-nav-background"></div>
+                                            <div class="sub-nav-back">
+                                                Mens
+                                            </div>
+                                            <ul class="gender-collections">
+                                                <li class="tm-gc-title">Featured collections</li>
+                                                <li><a href="#">Vanguard
+                                                        *New*</a></li>
+                                                <li><a href="#">Ari
+                                                        Petrou x Northskull</a></li>
+                                                <li><a href="#">Untitled</a>
+                                                </li>
+                                                <li><a href="#">RISE</a>
+                                                </li>
+                                                <li><a href="#">Further</a>
+                                                </li>
+                                                <li><a href="#">View all
+                                                        collections</a></li>
+                                            </ul>
+                                            <ul class="categories categories-products">
+                                                <li class="tm-gc-title">Products</li>
+                                                <li><a href="#">New in</a></li>
+                                                <li><a href="#" class="toggle-subcategories">Bracelets <i
+                                                            class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                                                    <ul class="subcategories">
+                                                        <li><a href="#">Leather Bracelets</a></li>
+                                                        <li><a href="#">Beads &amp; Macramé</a></li>
+                                                        <li><a href="#">Cuffs &amp; Bangles</a></li>
+                                                        <li><a href="#">Chain Bracelets</a></li>
+                                                        <li><a href="#">view all</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#">Necklaces</a></li>
+                                                <li><a href="#">Rings</a></li>
+                                                <li><a href="#">Earrings</a></li>
+                                                <li><a href="#">Accessories</a></li>
+                                                <li><a href="#" class="toggle-subcategories">Leather Goods <i
+                                                            class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                                                    <ul class="subcategories">
+                                                        <li><a href="#">Card Holders</a></li>
+                                                        <li><a href="#">Wallets</a></li>
+                                                        <li><a href="#">view all</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#">Sunglasses *Limited*</a></li>
+                                                <li><a href="#">Clothing *Limited*</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="has-sub-nav ecl-spec-menu-elm ecl-spec-menu-elm-mw">
+                                    <a href="woman.html">Womens
+                                        <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                                    <div class="sub-nav sub-nav-elc-female">
+                                        <div class="sub-nav-inner">
+                                            <div class="sub-nav-background"></div>
+                                            <div class="sub-nav-back">
+                                                Womens
+                                            </div>
+                                            <ul class="gender-collections">
+                                                <li class="tm-gc-title">Featured collections</li>
+                                                <li><a href="#">Lydia
+                                                        Tomlinson x Northskull II (*NEW*)</a></li>
+                                                <li><a href="#">Majestic</a>
+                                                </li>
+                                                <li><a href="#">Him
+                                                        for Her</a></li>
+                                            </ul>
+                                            <ul class="categories categories-products">
+                                                <li class="tm-gc-title">Products</li>
+                                                <li><a href="#">New In </a></li>
+                                                <li><a href="#">Bracelets</a></li>
+                                                <li><a href="#">Necklaces
+                                                        &amp; Chokers </a></li>
+                                                <li><a href="#">Earrings </a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li><a href="shop-our-insta.html">Shop Instagram</a></li>
+                                <li class="has-sub-nav ecl-spec-menu-elm">
+                                    <a>Northskull World <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                                    <div class="sub-nav sub-nav-spec-type-s sub-nav-spec-type-sb">
+                                        <div class="sub-nav-inner">
+                                            <div class="sub-nav-background"></div>
+                                            <div class="sub-nav-back">
+                                                Northskull World
+                                            </div>
+                                            <div class="title">Northskull World</div>
+                                            <div class="descr">Keep up to date with the world of Northskull where you
+                                                can find out the latest news, the inspirations behind the collections,
+                                                press features, celebrity fans and much more.</div>
+                                            <div class="elms-big">
+                                                <div class="elm-big">
+                                                    <div>
+                                                        <a href="about-us.html" class="elm-big-image">
+                                                            <img
+                                                                src="https://northskull.com/images/thumbnails/239/130/page_menu/6/ABOUT-US-1.png?t=1646072426">
+                                                        </a>
+                                                    </div>
+                                                    <div class="elm-title"><a href="about-us.html">About Us</a>
+                                                    </div>
+                                                </div>
+                                                <div class="elm-big">
+                                                    <div>
+                                                        <a href="journal.html" class="elm-big-image">
+                                                            <img src="https://northskull.com/images/thumbnails/239/130/page_menu/6/JOURNAL-1.png?t=1646072426"
+                                                                alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="elm-title"><a href="journal.html">Journal</a></div>
+                                                </div>
+                                                <div class="elm-big">
+                                                    <div>
+                                                        <a href="journal.html" class="elm-big-image">
+                                                            <img src="https://northskull.com/images/thumbnails/239/130/page_menu/6/PRESS-1.png?t=1646072426"
+                                                                alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="elm-title"><a href="journal.html">In
+                                                            The Press</a></div>
+                                                </div>
+                                                <div class="elm-big">
+                                                    <div>
+                                                        <a href="#" class="elm-big-image">
+                                                            <img src="https://northskull.com/images/thumbnails/239/130/page_menu/6/SELFRIDGES-1.png?t=1646072426"
+                                                                alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="elm-title"><a href="#">News
+                                                            &amp; Events</a></div>
+                                                </div>
+                                                <div class="elm-big">
+                                                    <div>
+                                                        <a href="#" class="elm-big-image">
+                                                            <img src="https://northskull.com/images/thumbnails/239/130/page_menu/6/CELEBS-1.png?t=1646072426"
+                                                                alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="elm-title"><a href="#">Celebrities</a>
+                                                    </div>
+                                                </div>
+                                                <div class="elm-big">
+                                                    <div>
+                                                        <a href="#" class="elm-big-image">
+                                                            <img src="https://northskull.com/images/thumbnails/239/130/page_menu/6/inspo_copy_4.png?t=1646072426"
+                                                                alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="elm-title"><a href="#">Our
+                                                            Inspirations</a></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li><a href="stockists.html">Stockists</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <!-- basket-preview -->
+            <div class="">
+                <div class="basket-preview">
+                    <a class="basket-button">
+                        <span class="copy"><img
+                                src="https://northskull.com/design/themes/responsive/media/images/addons/my_changes/SHOPPING BAG_icon.svg"></span>
+                        <span class="item-count">(0)</span>
+                    </a>
+                    <!-- cart empty -->
+                    <div class="preview empty">
+                        <div class="ecl-preview-dropdown" id="dropdown_193">
+                            <div class="preview-inner">
+                                <a href="#"
+                                    class="close-preview close-preview-minibasket close-preview-minibasket-empty"><span
+                                        class="extra">Close Preview</span></a>
+                                <div class="ecl-cart-status-mini" id="cart_status_mini">
+
+                                    <div class="ecl-cart-status-mini__header">
+                                        <h3 class="header"><span class="copy"></span> <span
+                                                class="ecl-cart-status-mini__cart-icon"></span><span
+                                                class="item-count">(0)</span></h3>
+                                        <h4 class="secondary-header"> My basket</h4>
+                                    </div>
+                                    <div class="ty-mini-basket-empty">
+                                        <div class="preview-empty-status">Your basket is empty</div>
+
+                                        <a href="index.html"
+                                            class="close-preview-minibasket ty-btn ty-btn__secondary text-button close-preview-minibasket-empty">Continue
+                                            shopping</a>
+                                    </div>
+                                    <ul class="products"></ul>
+
+                                    <!-- cart_status_mini -->
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- content -->
+    <div class="page-wrapper">
+        <div class="">
+            <div class="category-landing page-content">
+                <!-- header-introduction -->
+                <section class="introduction">
+                    <div class="section-header ecl-category-data-header   ">
+                        <div class="section-header-inner">
+                            <h1>SHOP OUR INSTA</h1>
+                            <p>GET INSPIRED BY THE AMAZING PHOTOS POSTED BY OUR FANS #NORTHSKULL TO JOIN THE REVOLUTION!
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <!-- categories -->
+                <section class="feature-categories" id="ii_contents_categories">
+                    <div class="inner">
+                        <div class="link-wrapper">
+                            <ul class="link-wrapper-tabs">
+                                <li><a class="active" href="#tab1">All posts</a></li>
+                                <li><a class="" href="#tab2">Mens
+                                        @Northskull</a></li>
+                                <li><a class="" href="#tab3">Womens
+                                        @Northskullwoman</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <!-- instagram-block -->
+            <div id="tab1" class="tab-content">
+                <!-- Nội dung cho tab 1 -->
+                <div class=" ecl-inst-men">
+                    <section class="instagram-block">
+                        <div id="fs_103" class="fs-wide-timeline  fs-desktop fs-wrapper fs-lookbook">
+                            <div id="fs-timeline-103" class="fs-timeline">
+                                <div class="fs-entry-container fs-entry-container-w40">
+                                    <div class="fs-timeline-entry"
+                                        style="cursor: pointer; background-image: url('https://northskull.com/images/thumbnails/500/500/instagram_image/11/M_09.04.21_e.png?t=1646094078');">
+                                        <div class="fs-text-container">
+                                            Shop the look
+                                            <a href="shop-our-insta.html">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="fs-entry-container fs-entry-container-w20">
+                                    <div class="fs-timeline-entry"
+                                        style="cursor: pointer; background-image: url('https://northskull.com/images/thumbnails/500/500/instagram_image/11/161185569_462470188433230_6432902618404134835_n_tdq3-6r.png?t=1646094078');">
+                                        <div class="fs-text-container">
+                                            Shop the look
+                                            <a href="shop-our-insta.html">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="fs-entry-container fs-entry-container-w20">
+                                    <div class="fs-timeline-entry"
+                                        style="cursor: pointer; background-image: url('https://northskull.com/images/thumbnails/500/500/instagram_image/10/138288692_1717460595099157_479452378205152638_n_94xv-cm.png?t=1646094078');">
+                                        <div class="fs-text-container">
+                                            Shop the look
+                                            <a href="shop-our-insta.html">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="fs-entry-container fs-entry-container-w20">
+                                    <div class="fs-timeline-entry"
+                                        style="cursor: pointer; background-image: url('https://northskull.com/images/thumbnails/500/500/instagram_image/10/138344495_773718973217004_266896766217991276_n_vust-64.png?t=1646094078');">
+                                        <div class="fs-text-container">
+                                            Shop the look
+                                            <a href="shop-our-insta.html">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="fs-entry-container fs-entry-container-w20">
+                                    <div class="fs-timeline-entry"
+                                        style="cursor: pointer; background-image: url('https://northskull.com/images/thumbnails/500/500/instagram_image/10/139288537_481685956555557_4316585517428104557_n_pt84-zl.png?t=1646094078');">
+                                        <div class="fs-text-container">
+                                            Shop the look
+                                            <a href="shop-our-insta.html">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="fs-entry-container fs-entry-container-w20">
+                                    <div class="fs-timeline-entry"
+                                        style="cursor: pointer; background-image: url('https://northskull.com/images/thumbnails/500/500/instagram_image/10/136663763_2869040780039150_6837678897299632864_n_se22-xs.png?t=1646094078');">
+                                        <div class="fs-text-container">
+                                            Shop the look
+                                            <a href="shop-our-insta.html">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="fs-entry-container fs-entry-container-w20">
+                                    <div class="fs-timeline-entry"
+                                        style="cursor: pointer; background-image: url('https://northskull.com/images/thumbnails/500/500/instagram_image/9/e.png?t=1646094078');">
+                                        <div class="fs-text-container">
+                                            Shop the look
+                                            <a href="shop-our-insta.html">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div id="tab2" class="tab-content" style="display: none;">
+                <!-- Nội dung cho tab 2 -->
+                <div class=" ecl-inst-men">
+                    <section class="instagram-block">
+                        <div id="fs_103" class="fs-wide-timeline  fs-desktop fs-wrapper fs-lookbook">
+                            <div id="fs-timeline-103" class="fs-timeline">
+                                <div class="fs-entry-container fs-entry-container-w40">
+                                    <div class="fs-timeline-entry"
+                                        style="cursor: pointer; background-image: url('https://northskull.com/images/thumbnails/500/500/instagram_image/11/M_09.04.21_e.png?t=1646094078');">
+                                        <div class="fs-text-container">
+                                            Shop the look
+                                            <a href="shop-our-insta.html">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="fs-entry-container fs-entry-container-w20">
+                                    <div class="fs-timeline-entry"
+                                        style="cursor: pointer; background-image: url('https://northskull.com/images/thumbnails/500/500/instagram_image/9/e.png?t=1646094078');">
+                                        <div class="fs-text-container">
+                                            Shop the look
+                                            <a href="shop-our-insta.html">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="fs-entry-container fs-entry-container-w20">
+                                    <div class="fs-timeline-entry"
+                                        style="cursor: pointer; background-image: url('https://northskull.com/images/thumbnails/500/500/instagram_image/10/138288692_1717460595099157_479452378205152638_n_94xv-cm.png?t=1646094078');">
+                                        <div class="fs-text-container">
+                                            Shop the look
+                                            <a href="shop-our-insta.html">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="fs-entry-container fs-entry-container-w20">
+                                    <div class="fs-timeline-entry"
+                                        style="cursor: pointer; background-image: url('https://northskull.com/images/thumbnails/500/500/instagram_image/10/139288537_481685956555557_4316585517428104557_n_pt84-zl.png?t=1646094078');">
+                                        <div class="fs-text-container">
+                                            Shop the look
+                                            <a href="shop-our-insta.html">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="fs-entry-container fs-entry-container-w20">
+                                    <div class="fs-timeline-entry"
+                                        style="cursor: pointer; background-image: url('https://northskull.com/images/thumbnails/500/500/instagram_image/9/d_41m6-km.png?t=1646076850');">
+                                        <div class="fs-text-container">
+                                            Shop the look
+                                            <a href="shop-our-insta.html">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="fs-entry-container fs-entry-container-w20">
+                                    <div class="fs-timeline-entry"
+                                        style="cursor: pointer; background-image: url('https://northskull.com/images/thumbnails/500/500/instagram_image/9/66687701_374516709884471_2142745531522067032_n.png?t=1646076850');">
+                                        <div class="fs-text-container">
+                                            Shop the look
+                                            <a href="shop-our-insta.html">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="fs-entry-container fs-entry-container-w20">
+                                    <div class="fs-timeline-entry"
+                                        style="cursor: pointer; background-image: url('https://northskull.com/images/thumbnails/500/500/instagram_image/9/c_rs7r-lh.png?t=1646076850');">
+                                        <div class="fs-text-container">
+                                            Shop the look
+                                            <a href="shop-our-insta.html">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div id="tab3" class="tab-content" style="display: none;">
+                <!-- Nội dung cho tab 3 -->
+                <div class=" ecl-inst-men">
+                    <section class="instagram-block">
+                        <div id="fs_103" class="fs-wide-timeline  fs-desktop fs-wrapper fs-lookbook">
+                            <div id="fs-timeline-103" class="fs-timeline">
+                                <div class="fs-entry-container fs-entry-container-w40">
+                                    <div class="fs-timeline-entry"
+                                        style="cursor: pointer; background-image: url('https://northskull.com/images/thumbnails/500/500/instagram_image/11/161185569_462470188433230_6432902618404134835_n_tdq3-6r.png?t=1646094078');">
+                                        <div class="fs-text-container">
+                                            Shop the look
+                                            <a href="shop-our-insta.html">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="fs-entry-container fs-entry-container-w20">
+                                    <div class="fs-timeline-entry"
+                                        style="cursor: pointer; background-image: url('https://northskull.com/images/thumbnails/500/500/instagram_image/10/138344495_773718973217004_266896766217991276_n_vust-64.png?t=1646094078');">
+                                        <div class="fs-text-container">
+                                            Shop the look
+                                            <a href="shop-our-insta.html">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="fs-entry-container fs-entry-container-w20">
+                                    <div class="fs-timeline-entry"
+                                        style="cursor: pointer; background-image: url('https://northskull.com/images/thumbnails/500/500/instagram_image/10/136663763_2869040780039150_6837678897299632864_n_se22-xs.png?t=1646094078');">
+                                        <div class="fs-text-container">
+                                            Shop the look
+                                            <a href="shop-our-insta.html">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="fs-entry-container fs-entry-container-w20">
+                                    <div class="fs-timeline-entry"
+                                        style="cursor: pointer; background-image: url('https://northskull.com/images/thumbnails/500/500/instagram_image/11/165219974_1574939409370662_4703692098546730136_n.png?t=1646073230');">
+                                        <div class="fs-text-container">
+                                            Shop the look
+                                            <a href="shop-our-insta.html">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="fs-entry-container fs-entry-container-w20">
+                                    <div class="fs-timeline-entry"
+                                        style="cursor: pointer; background-image: url('https://northskull.com/images/thumbnails/500/500/instagram_image/11/7C87073E-EEC4-46FE-BEE6-F0D5C4AF6C76_copy.png?t=1646073230');">
+                                        <div class="fs-text-container">
+                                            Shop the look
+                                            <a href="shop-our-insta.html">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="fs-entry-container fs-entry-container-w20">
+                                    <div class="fs-timeline-entry"
+                                        style="cursor: pointer; background-image: url('https://northskull.com/images/thumbnails/500/500/instagram_image/10/158362638_134036885294351_818343914848771832_n.png?t=1646073230');">
+                                        <div class="fs-text-container">
+                                            Shop the look
+                                            <a href="shop-our-insta.html">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="fs-entry-container fs-entry-container-w20">
+                                    <div class="fs-timeline-entry"
+                                        style="cursor: pointer; background-image: url('https://northskull.com/images/thumbnails/500/500/instagram_image/10/137382374_220440199713612_7938222617294822074_n.png?t=1646073230');">
+                                        <div class="fs-text-container">
+                                            Shop the look
+                                            <a href="shop-our-insta.html">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer class="global-footer page-wrapper">
+        <!-- back-to-top -->
+        <div class="">
+            <div class="back-to-top">
+                <a href="#">
+                    <div class="logo"><span></span></div>
+                    <h6>Back North</h6>
+                </a>
+            </div>
+        </div>
+        <div class="main-footer" data-module="Footer">
+            <div class="main-footer-inner">
+                <!-- footer-menu-container -->
+                <div class="footer-menu-container">
+                    <div class="ty-sidebox">
+                        <h2 class="ty-sidebox__title ">
+                            <span class="ty-sidebox__title-wrapper hidden-phone">Northskull</span>
+                        </h2>
+                        <div class="ty-sidebox__body" id="sidebox_108">
+                            <div class="site-links">
+                                <ul class="link-list">
+                                    <li class="">
+                                        <a href="#">About Us</a>
+                                    </li>
+                                    <li class="">
+                                        <a href="#">Press Room</a>
+                                    </li>
+                                    <li class="">
+                                        <a href="#">@Northkull</a>
+                                    </li>
+                                    <li class="">
+                                        <a href="#">News and
+                                            Events</a>
+                                    </li>
+                                    <li class="">
+                                        <a href="#">Contact Us</a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ty-sidebox">
+                        <h2 class="ty-sidebox__title ">
+                            <span class="ty-sidebox__title-wrapper hidden-phone">Customer service</span>
+                        </h2>
+                        <div class="ty-sidebox__body" id="sidebox_109">
+                            <div class="site-links">
+                                <ul class="link-list">
+                                    <li class="">
+                                        <a href="#">Delivery Info</a>
+                                    </li>
+                                    <li class="">
+                                        <a href="#">Returns</a>
+                                    </li>
+                                    <li class="">
+                                        <a href="#">F.A.Q.</a>
+                                    </li>
+                                    <li class="">
+                                        <a href="#">KLARNA F.A.Q</a>
+                                    </li>
+                                    <li class="">
+                                        <a href="#">Track orders</a>
+                                    </li>
+                                    <li class="">
+                                        <a href="#">Care Guide</a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ty-sidebox">
+                        <h2 class="ty-sidebox__title ">
+                            <span class="ty-sidebox__title-wrapper hidden-phone">Shop northskull</span>
+                        </h2>
+                        <div class="ty-sidebox__body" id="sidebox_110">
+                            <div class="site-links">
+                                <ul class="link-list">
+                                    <li class="">
+                                        <a href="#">Shop man</a>
+                                    </li>
+                                    <li class="">
+                                        <a href="#">Shop woman</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ty-sidebox">
+                        <h2 class="ty-sidebox__title ">
+                            <span class="ty-sidebox__title-wrapper hidden-phone">Info</span>
+                        </h2>
+                        <div class="ty-sidebox__body" id="sidebox_111">
+                            <div class="site-links">
+                                <ul class="link-list">
+                                    <li class="">
+                                        <a href="#">Stockists</a>
+                                    </li>
+                                    <li class="">
+                                        <a href="#">Privacy Policy</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- footer-subscribe-block -->
+                <div class="footer-subscribe-block">
+                    <div class="ecl-nl-form-elm newsletter newsletter-popup show">
+                        <h6 class="newsletter-title">Sign up now</h6>
+                        <div class="newsletter-descr">Sign up to our newsletter and be the first to know about new
+                            arrivals, special offers, exclusive launches and much more!</div>
+                        <form class="standard-form cm-processed-form" action="#" method="post">
+                            <div class="newsletter-input-wrapper">
+                                <div class="newsletter-input-wrapper__inner">
+                                    <input class="email-input cm-email" type="text" name="newsletter_data[email]"
+                                        placeholder="Email address" data-email="" data-required=""
+                                        data-error="Valid email address">
+                                    <label class="error-message"></label>
+                                </div>
+
+                                <div class="newsletter-radio-box-title">Email Preferences</div>
+
+                                <div class="newsletter-radio-box">
+                                    <div class="newsletter-radio-box__item">
+                                        <input type="radio" name="newsletter_data[sex]" value="A" checked="checked"
+                                            id="newsletter-radio-all-footer"><label class="newsletter-radio-label"
+                                            for="newsletter-radio-all-footer">All</label>
+                                    </div>
+                                    <div class="newsletter-radio-box__item">
+                                        <input type="radio" name="newsletter_data[sex]" value="M"
+                                            id="newsletter-radio-man-footer"><label class="newsletter-radio-label"
+                                            for="newsletter-radio-man-footer">Men</label>
+                                    </div>
+                                    <div class="newsletter-radio-box__item">
+                                        <input type="radio" name="newsletter_data[sex]" value="F"
+                                            id="newsletter-radio-woman-footer"><label class="newsletter-radio-label"
+                                            for="newsletter-radio-woman-footer">Women</label>
+                                    </div>
+                                </div>
+
+                                <div class="newsletter-submit-wrapper__inner">
+                                    <input class="submit" type="submit" value="Subscribe" name="submit">
+                                    <div class="loader-wrapper">
+                                        <div class="loader"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- footer-social-block -->
+                <div class="footer-social-block">
+                    <div class="footer-top-content-block">
+                        <div class="footer-top-content-block__item"><img
+                                src="https://northskull.com/design/themes/responsive/media/images/addons/my_changes/warenty_img.png"><span
+                                class="footer-top-content-block__item-text">WORLDWIDE EXPRESS SHIPPING</span></div>
+                        <div class="footer-top-content-block__item"><img
+                                src="https://northskull.com/design/themes/responsive/media/images/addons/my_changes/warenty2.png"><span
+                                class="footer-top-content-block__item-text">100% safe &amp; secure checkout</span></div>
+                    </div>
+                    <div class="social">
+                        <h6>Connect</h6>
+                        <ul class="link-list">
+                            <li class="facebook"><a href="#" target="_blank"><i class="fa fa-facebook"
+                                        aria-hidden="true"></i></a>
+                            </li>
+                            <li class="twitter"><a href="#" target="_blank"><i class="fa fa-twitter"
+                                        aria-hidden="true"></i></a></li>
+                            <li class="pinterest"><a href="#" target="_blank"><i class="fa fa-pinterest-p"
+                                        aria-hidden="true"></i></a>
+                            </li>
+                            <li class="instagram"><a href="#" target="_blank"><i class="fa fa-instagram"
+                                        aria-hidden="true"></i></a>
+                            </li>
+                            <li class="snapchat"><a href="#" target="_blank"><i class="fa fa-snapchat-ghost"
+                                        aria-hidden="true"></i></a>
+                            </li>
+                            <li class="vk"><a href="#" target="_blank"><i class="fa fa-vk" aria-hidden="true"></i></a>
+                            </li>
+                            <li class="wechat"><a href="#" target="_blank"><i class="fa fa-weixin"
+                                        aria-hidden="true"></i></a></li>
+                            <li class="weibo"><a href="#" target="_blank"><i class="fa fa-weibo"
+                                        aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-payments">
+                        <h6>Payments</h6>
+                        <div class="footer-payments__list">
+                            <img
+                                src="https://northskull.com/design/themes/responsive/media/images/addons/my_changes/visa_footer.png">
+                            <img
+                                src="https://northskull.com/design/themes/responsive/media/images/addons/my_changes/master_footer.png">
+                            <img
+                                src="https://northskull.com/design/themes/responsive/media/images/addons/my_changes/maestro_footer.png">
+                            <img
+                                src="https://northskull.com/design/themes/responsive/media/images/addons/my_changes/american_express_footer.png">
+                            <img
+                                src="https://northskull.com/design/themes/responsive/media/images/addons/my_changes/jcb_footer.png">
+                            <img
+                                src="https://northskull.com/design/themes/responsive/media/images/addons/my_changes/diners_club_footer.png">
+                            <img
+                                src="https://northskull.com/design/themes/responsive/media/images/addons/my_changes/klarna_footer.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="js/northskull.js"></script>
+</html>
