@@ -885,4 +885,12 @@ h6 {
     .navigation-fixed .quick-search .search-button {
         display: none;
     }
+
+    /*  */
+    .global-navigation-inner {
+        display: none;
+    }
+    .global-header {
+        min-height: 0;
+    }
 }
