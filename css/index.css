@@ -118,7 +118,7 @@ div.stories-inner {
 }
 
 .stories.intro-stories2 .stories-inner .story.intro-story2 .inner .information {
-    background: #000;
+    background: #501209;
 }
 
 .intro-stories2 article.story .information a {
@@ -256,7 +256,9 @@ div.stories-inner {
     top: -80px;
     position: absolute;
     left: calc(50% - 30px);
-    background: url(https://northskull.com/design/themes/responsive/media/images/addons/my_changes/instagram_mobile_icon_60.png?1692992493);
+    background-image: url(https://icon-library.com/images/white-facebook-icon-png/white-facebook-icon-png-29.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .intro-story3-description-inner-text {
@@ -311,7 +313,7 @@ div.stories-inner {
     display: block;
     width: 140px;
     height: 15px;
-    background: #000;
+    background: #501209;
     margin: 0 auto 20px;
 }
 
@@ -366,4 +368,47 @@ div.stories-inner {
 
 .carousel .slide img {
     max-width: 100%;
+}
+
+@media only screen and (max-width:800px) {
+
+    /* For tablets: */
+    
+}
+
+@media only screen and (max-width:500px) {
+
+    /* For mobile phones: */
+    .stories.intro-stories2 .stories-inner .story.intro-story2 {
+        width: 100%;
+    }
+    .stories.intro-stories3 .stories-inner .story.intro-story3 {
+        vertical-align: top;
+        width: 100%;
+    }
+    .intro-stories3 .stories-inner {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .press-block-main .carousel-inner {
+        overflow: hidden;
+        position: relative;
+    }
+    .carousel .slides {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .press-block-main .carousel .slide {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        padding: 20px 20px;
+        box-sizing: border-box;
+    }
+    .carousel .slide {
+        width: 48%;
+        text-align: center;
+    }
 }

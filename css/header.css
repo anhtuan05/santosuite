@@ -129,33 +129,35 @@
 .global-header .logo,
 .focused-header .logo {
     line-height: 1em;
-    padding-top: 33px;
-    padding-bottom: 20px;
+    /* padding-top: 33px;
+    padding-bottom: 20px; */
 }
 
 .global-header .logo {
-    padding-top: 15px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    height: 0;
 }
 
 .global-header .logo a,
 .focused-header .logo a {
     display: block;
-    position: relative;
-    width: 220px;
-    height: 48px;
-    margin: 0 auto;
-    background: url(https://northskull.com/design/themes/responsive/media/images/logo.svg?1692992493) no-repeat center center;
+    width: 160px;
+    height: 120px;
+    /* margin-left: 50px; */
+    background: url("/img/santosuite.jpg") no-repeat center center;
     background-size: 100%;
-    z-index: 1;
     transition: none;
+    border-radius: 4px;
 }
 
 /* main-menu */
 /* user-options */
 .user-options {
-    position: absolute;
+    /* position: absolute;
     top: 0;
-    left: 0;
+    left: 0; */
     width: 100%;
     text-align: right;
     padding: 33px 180px 0 35px;
@@ -263,6 +265,7 @@
 .wishlist-icon {
     display: inline-block;
     height: 22px;
+
 }
 
 .wishlist .wishlist-icon {
@@ -287,10 +290,13 @@
 
 /* global-navigation */
 .global-navigation {
-    border-top: 1px solid #ebebeb;
-    border-bottom: 1px solid #ebebeb;
+    border-top: 1px solid #ebebeb00;
+    border-bottom: 1px solid #ebebeb00;
     text-align: center;
     background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .global-navigation-inner {
@@ -342,6 +348,7 @@
     position: absolute;
     left: 0;
     right: 0;
+    background-color: #501209;
     transform: translateY(-100%);
     z-index: -1;
     transition: transform 300ms ease-in-out;
@@ -359,11 +366,12 @@
     width: 4000px;
     height: 100%;
     transform: translateX(-50%);
-    background: #000;
+    background: #50120900;
 }
 
 .sub-nav-back {
     display: none;
+    background-color: red;
 }
 
 .global-navigation-inner .ecl-spec-menu-elm div.sub-nav ul.gender-collections {
@@ -797,6 +805,7 @@ h6 {
     width: 100%;
     top: -0.5px;
     left: 0;
+    background-color: white;
 }
 
 .navigation-fixed .quick-search .search-button {
@@ -830,7 +839,7 @@ h6 {
     padding-top: 33px;
 }
 
-.navigation-fixed .logo a {
+/* .navigation-fixed .logo a {
     position: absolute;
     top: 11px;
     left: 0;
@@ -838,7 +847,7 @@ h6 {
     height: 60px;
     background-position: -24px center;
     transition: none;
-}
+} */
 
 /* top, under, menu-free-shipping-banner */
 .top-free-shipping-banner,
@@ -857,4 +866,23 @@ h6 {
 .top-free-shipping-banner .s2,
 .under-menu-free-shipping-banner .s2 {
     color: #ff0000;
+}
+
+.menu-button {
+    display: none;
+}
+
+@media only screen and (max-width:500px) {
+    .menu-button {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 60px;
+        height: 59px;
+    }
+
+    .navigation-fixed .quick-search .search-button {
+        display: none;
+    }
 }

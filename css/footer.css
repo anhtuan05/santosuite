@@ -1,6 +1,6 @@
 /* footer */
 .main-footer {
-    background: #000;
+    background: #501209;
     color: #fff;
 }
 
@@ -264,7 +264,7 @@ input[type="checkbox"] {
 }
 
 .footer-subscribe-block .newsletter-radio-box__item .newsletter-radio-label {
-    font-size: 16px;
+    font-size: 14px;
     color: #fff;
 }
 
@@ -378,14 +378,14 @@ input[type="checkbox"] {
     line-height: normal;
 }
 
-.footer-top-content-block__item:first-child:after {
+/* .footer-top-content-block__item:first-child:after {
     content: '';
     width: 1px;
     height: 50px;
     display: block;
     margin: 0 20px;
     background: #fff;
-}
+} */
 
 .footer-social-block .social {
     position: relative;
@@ -477,4 +477,85 @@ input[type="checkbox"] {
     background: url(https://northskull.com/design/themes/responsive/media/images/logo.svg?1692992493) no-repeat;
     background-size: 250px 250px;
     background-position: -28px 44.9%;
+}
+
+@media only screen and (max-width:500px) { 
+    .page-wrapper {
+        position: relative;
+        padding-top: 58px;
+    }
+    .main-footer-inner {
+        max-width: 1430px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding-top: 0;
+    }
+    .main-footer-inner {
+        width: 100%;
+        margin: 0 auto !important;
+        float: none !important;
+        text-align: center;
+    }
+    .footer-subscribe-block {
+        width: 100%;
+    }
+    .footer-menu-container {
+        display: flex
+    ;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .footer-social-block {
+        width: 100%;
+        padding: 0 5% 3%;
+    }
+    .footer-menu-container {
+        display: flex
+    ;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .footer-menu-container .ty-sidebox {
+        width: 100%;
+        padding: 12px 30px 16px;
+        margin-bottom: 0;
+        border-top: 1px solid #777;
+    }
+    .ty-sidebox {
+        margin-bottom: 44px;
+        word-wrap: break-word;
+    }
+    .footer-menu-container .ty-sidebox__title {
+        padding: 0 0 5px;
+        border: none;
+        display: flex
+    ;
+        justify-content: space-between;
+    }
+    .footer-menu-container h2 {
+        color: #fff;
+        text-align: left;
+        margin-top: 8px;
+    }
+    .ty-sidebox__title {
+        position: relative;
+        font-size: 19px;
+        padding: 0 0 5px;
+        border: none;
+    }
+    .ty-sidebox__body {
+        display: none;
+    }
+    .footer-subscribe-block .newsletter-popup {
+        background: none;
+        border: 1px solid #ffffff00;
+        bottom: 0;
+        padding: 35px 15px 20px 15px;
+    }
 }
